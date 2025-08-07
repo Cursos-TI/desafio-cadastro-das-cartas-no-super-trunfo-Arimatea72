@@ -25,7 +25,7 @@
         printf("Carta 1:");
         printf("\n");
 
-// --> Entrada de dados Carta 01:
+// --> Leitura de dados do usuário - Carta 01:
         printf("Digite a letra do estado: ");
         scanf(" %c", &estado1);
 
@@ -51,7 +51,7 @@
         printf("Carta 2:");
         printf("\n");
 
-// --> Entrada de dados Carta 02:
+// --> Leitura de dados do usuário - Carta 02:
         printf("Digite a letra do estado: ");
         scanf(" %c", &estado2);
 
@@ -77,7 +77,7 @@
         printf("CARTA 01:");
         printf("\n");
 
-// --> Saída dos dados Carta 01:
+// --> Exibição das informações na tela - Carta 01:
         printf("Estado: %c;\n", estado1);
         printf("Código: %s;\n", codigo1); 
         printf("Nome da Cidade: %s;\n", nome1);
@@ -90,7 +90,7 @@
         printf("CARTA 02:");
         printf("\n");
 
-// --> Saída dos dados Carta 02:
+// --> Exibição das informações na tela - Carta 02:
         printf("Estado: %c;\n", estado2);
         printf("Código: %s;\n", codigo2); 
         printf("Nome da Cidade: %s;\n", nome2);
