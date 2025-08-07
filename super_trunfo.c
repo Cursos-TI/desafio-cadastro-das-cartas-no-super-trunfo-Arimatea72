@@ -81,7 +81,7 @@
         printf("- Estado: %c;\n", estado1);
         printf("- Código: %s;\n", codigo1); 
         printf("- Nome da Cidade: %s;\n", nome1);
-        printf("- opulação: %d Habitantes;\n", populacao1);
+        printf("- População: %d Habitantes;\n", populacao1);
         printf("- Área: %.2f Km2;\n", area1);
         printf("- PIB: %.2lf Bilhões;\n", pib1);
         printf("- Número de Pontos Turísticos: %d.\n", numero1);
@@ -94,7 +94,7 @@
         printf("- Estado: %c;\n", estado2);
         printf("- Código: %s;\n", codigo2); 
         printf("- Nome da Cidade: %s;\n", nome2);
-        printf("- opulação: %d Habitantes;\n", populacao2);
+        printf("- População: %d Habitantes;\n", populacao2);
         printf("- Área: %.2f Km2;\n", area2);
         printf("- PIB: %.2lf Bilhões;\n", pib2);
         printf("- Número de Pontos Turísticos: %d.\n", numero2);
