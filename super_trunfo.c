@@ -47,28 +47,12 @@
         printf("01) Estado: %c;\n", estado);
         printf("02) Código: %s;\n", codigo); 
         printf("03) Nome da Cidade: %s;\n", nome);
-        printf("04) População: %d;\n", populacao);
-        printf("05) Área: %.2f;\n", area);
-        printf("06) PIB: %.2lF\n", pib);
+        printf("04) População: %d Habitantes;\n", populacao);
+        printf("05) Área: %.2f Km2;\n", area);
+        printf("06) PIB: %.2lf Bilhões;\n", pib);
         printf("07) Número de Pontos Turísticos: %d;\n", numero);
 
         printf("\n");
-
-/* getchar(); 
-
-    printf("Digite seu endereço: ");
-    fgets(endereco, 35, stdin);
-    endereco[strcspn(endereco, "\n")] = 0;
-    printf("Endereço: %s\n", endereco); */
-
-/* Carta 1:
-Estado: A
-Código: A01
-Nome da Cidade: São Paulo
-População: 12325000
-Área: 1521.11 km²
-PIB: 699.28 bilhões de reais
-Número de Pontos Turísticos: 50 */
 
 return 0;
 }
