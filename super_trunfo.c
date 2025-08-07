@@ -3,7 +3,7 @@
     int main(){
 
     // --> CARTA 01:
-    // --> Variáveis Carta 01:
+    // --> Variáveis - Carta 01:
         char estado1;
         char codigo1[5];
         char nome1[20];
@@ -12,7 +12,7 @@
         double pib1;
         int numero1;
 
-    // --> Variáveis Carta 02:
+    // --> Variáveis - Carta 02:
         char estado2;
         char codigo2[5];
         char nome2[20];
