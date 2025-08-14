@@ -80,9 +80,9 @@
         printf("Quantos pontos turísticos tem a cidade?\n");
         scanf("%d", &pontos2);
 
-// EXIBIÇÃO DAS INFORMAÇÕES NA TELA:
+        // EXIBIÇÃO DAS INFORMAÇÕES NA TELA:
 
-// CARTA 01:
+        // CARTA 01:
         printf("\n");
         printf("<< CARTA 01: >>\n");
         printf("\n");
@@ -95,7 +95,7 @@
         printf("6. PIB: %f Bilhões de reais;\n", pib1);
         printf("7. Número de Pontos Turísticos: %d;\n", pontos1);
 
-        // CARTA 01:
+        // CARTA 02:
         printf("\n");
         printf("<< CARTA 02: >>\n");
         printf("\n");
