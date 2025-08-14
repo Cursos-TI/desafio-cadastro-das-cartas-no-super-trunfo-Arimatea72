@@ -10,7 +10,7 @@
         char codigo1[5];  // Letra mais numero de 01 a 04;
         char cidade1[20]; // Nome da cidade;
         int populacao1;   // Habitantes
-        float area1; // em km2;
+        float area1; // Em km2;
         float pib1; // Bilhoes de reais;
         int pontos1; // Pontos turísticos.
 
@@ -45,15 +45,15 @@
 
         // VARIÁVEIS:
 
-        char estado2; // Apenas a letra do Estado de A a h;
-        char codigo2[5];  // Letra mais numero de 01 a 04;
-        char cidade2[20]; // Nome da cidade;
-        int populacao2;   // Habitantes
-        float area2; // em km2;
-        float pib2; // Bilhoes de reais;
-        int pontos2; // Pontos turísticos.
+        char estado2; 
+        char codigo2[5];  
+        char cidade2[20]; 
+        int populacao2;   
+        float area2; 
+        float pib2; 
+        int pontos2; 
 
-    // LEITURA DOS DADOS DO USUÁRIO:
+        // LEITURA DOS DADOS DO USUÁRIO:
 
         printf("\n");
         printf("SEGUNDA CARTA:\n");
@@ -93,7 +93,7 @@
         printf("4. População: %d Habitantes;\n", populacao1);
         printf("5. Área: %.2f km²;\n", area1);
         printf("6. PIB: %f Bilhões de reais;\n", pib1);
-        printf("7. Número de Pontos Turísticos: %d;\n", pontos1);
+        printf("7. Número de Pontos Turísticos: %d.\n", pontos1);
 
         // CARTA 02:
         printf("\n");
@@ -106,7 +106,7 @@
         printf("4. População: %d Habitantes;\n", populacao2);
         printf("5. Área: %.2f km²;\n", area2);
         printf("6. PIB: %f Bilhões de reais;\n", pib2);
-        printf("7. Número de Pontos Turísticos: %d;\n", pontos2);
+        printf("7. Número de Pontos Turísticos: %d.\n", pontos2);
 
         printf("\n");
         printf("MARANATA - O Senhor Jesus vem!");
