@@ -105,7 +105,7 @@ printf("9. PIB per Capta: %.2f reais;\n", pibpercapta1);
 printf("\n\n");
 printf("** CARTA 02: **\n\n");
 
-// CARTA 01:
+// CARTA 02:
 
 printf("1. Estado: %c;\n", estado);
 printf("2. Código: %s;\n", codigo);
