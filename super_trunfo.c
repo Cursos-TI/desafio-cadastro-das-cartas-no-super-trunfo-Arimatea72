@@ -43,26 +43,10 @@ densidade1 = populacao1 / area1;
 pibpercapta1 = (pib1 *1000000000) / populacao1;
 
 printf("\n\n");
-printf("** CARTA 01: **\n");
-
-
-// IMPRIMIR NA TELA OS RESULTADOS - CARTA 01:
-
-printf("1. Estado: %c;\n", estado1);
-printf("2. Código: %s;\n", codigo1);
-printf("3. Nome da Cidade: %s;\n", cidade1);
-printf("4. População: %d;\n", populacao1);
-printf("5. Área: %.2fkm2;\n", area1);
-printf("6. PIB: %.2F Bilhões de Reais;\n", pib1);
-printf("7. Número de Pontos Turísticos: %d;\n", turistico1);
-printf("8. Densidade Populacional: %.2f hab/km2;\n", densidade1);
-printf("9. PIB per Capta: %.2f reais;\n", pibpercapta1);
-
-printf("\n\n");
 
 // SEGUNDA CARTA:
 
-printf("\n\n");
+printf("\n");
 printf("<< DADOS CARTA 02:\n\n");
 
 // VARIÁVEIS:
@@ -100,10 +84,28 @@ scanf("%d", &turistico);
 densidade = populacao / area;
 pibpercapta = (pib *1000000000) / populacao;
 
-printf("\n\n");
-printf("** CARTA 02: **\n");
+// IMPRIMIR NA TELA OS RESULTADOS DAS DUAS CARTAS: 
 
-// IMPRIMIR NA TELA OS RESULTADOS:
+// CARTA 01:
+
+printf("\n");
+printf("** CARTA 01: **\n");
+printf("\n");
+
+printf("1. Estado: %c;\n", estado1);
+printf("2. Código: %s;\n", codigo1);
+printf("3. Nome da Cidade: %s;\n", cidade1);
+printf("4. População: %d;\n", populacao1);
+printf("5. Área: %.2fkm2;\n", area1);
+printf("6. PIB: %.2F Bilhões de Reais;\n", pib1);
+printf("7. Número de Pontos Turísticos: %d;\n", turistico1);
+printf("8. Densidade Populacional: %.2f hab/km2;\n", densidade1);
+printf("9. PIB per Capta: %.2f reais;\n", pibpercapta1);
+
+printf("\n\n");
+printf("** CARTA 02: **\n\n");
+
+// CARTA 01:
 
 printf("1. Estado: %c;\n", estado);
 printf("2. Código: %s;\n", codigo);
